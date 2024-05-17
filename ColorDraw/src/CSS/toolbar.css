@@ -1,0 +1,194 @@
+#toolbar {
+  padding-left: 5px;
+  width: 180px;
+  height: 100vh;
+  background-color: #d1d1d1;
+  box-shadow: #4f55c0 0px 2px 5px -1px, #2f36b2 0px 1px 8px -1px;
+  justify-content: center;
+  text-align: center;
+}
+
+#toolbar * {
+  margin-bottom: 10px;
+}
+
+#toolbar label {
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 10px;
+  /* margin-bottom: 10px; */
+  align-self: left;
+  /* margin-left: 10px; */
+}
+
+#toolbar input {
+  width: 90%;
+  font-size: 18px;
+}
+
+#toolbar button {
+  background-color: #4f55c0;
+  border: none;
+  border-radius: 8px;
+  color:white;
+  font-weight: bold;
+  padding: 8px;
+  margin: auto;
+  width: 100%;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+#toolbar button:hover {
+  background-color: #350775;
+}
+
+#toolbar button:active {
+  background-color: #2f36b2;
+} 
+
+#toolbar input[type="color"] {
+	border: none;
+	width: 40px;
+	height: 40px;
+  border-radius: 20px;
+  background: none;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#toolbar input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+
+#toolbar input[type="color"]::-webkit-color-swatch {
+	border-radius: 40px;
+}
+
+#toolbar input[type="color"]:hover {
+  border: #350775 solid 1px;
+  cursor: pointer;
+}
+
+.colorContainer label {
+  margin-bottom: 10px;
+}
+
+#toolbar input[type="number"]:hover {
+  background-color: #350775;
+  color: white;
+}
+
+#toolbar input[type="file"] {
+  display: none;
+}
+
+.lineContainer {
+  border: 1px solid #4f55c0;
+  border-radius: 8px;
+  box-shadow: #4f55c0 0px 1px 1px -1px, #2f36b2 0px 1px 2px -1px;
+}
+
+.colorContainer {
+  display: flex;
+  border: 1px solid #4f55c0;
+  border-radius: 8px;
+  box-shadow: #4f55c0 0px 1px 1px -1px, #2f36b2 0px 1px 2px -1px;
+  justify-content: center;
+  align-items: center;
+}
+
+.paintOptions {
+  border: 1px solid #4f55c0;
+  border-radius: 8px;
+  box-shadow: #4f55c0 0px 1px 1px -1px, #2f36b2 0px 1px 2px -1px;
+  display: flex; 
+  justify-content: space-around;
+  padding: 3px;
+  align-items: center;
+}
+
+#paint.inactive,
+#erase.inactive{
+  background-color: #000000;
+  border: none;
+  border-radius: 8px;
+  color:white;
+  font-weight: bold;
+  padding: 1px;
+  margin: auto;
+  width: 30%;
+  font-size: 12px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+#paint.active:hover,
+#erase.active:hover {
+  background-color: #4f55c0;
+}
+
+#paint.active,
+#erase.active {
+  background-color: #4f55c0;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  padding: 1px;
+  margin: auto;
+  width: 40%;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.fileUploadContainer {
+  padding: 10px 12px 10px 12px;
+  background-color: #4f55c0;
+  border: none;
+  border-radius: 8px;
+  color:white;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.fileUploadContainer:hover {
+  background-color: #350775;
+}
+
+.fileUploadContainer:active {
+  background-color: #2f36b2;
+} 
+
+ul {
+  list-style-type: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.toolbarTitle {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  background-color: #7F7FD5;
+  border: 1px solid #7F7FD5;
+  border-radius: 8px;
+  box-shadow: #4f55c0 0px 2px 5px -1px, #2f36b2 0px 1px 8px -1px;
+  width: 90%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 24px;
+  cursor: default;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
