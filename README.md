@@ -19,3 +19,8 @@ Using the GUI from RecipeViewer.py you can view all the recipes in a table as we
 
 Future Additions:
 - CSV with current ingredients in house, allow you to add and subtract ingredients from the GUI. Will use these to filter the recipes available
+
+## Weather Apps
+One is setup to allow for searching a location and showing the current weather data using the OpenWeatherMap API.
+
+The other is set up to always show the same location current weather to be able to set up alerts. (WIP)
